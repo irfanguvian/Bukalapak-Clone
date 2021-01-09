@@ -1,0 +1,251 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-item ion-icon {
+  color: black;
+  font-size: 24px;
+}
+
+.nav-item .counter-cart {
+  font-size: 1.2rem;
+}
+
+.solid {
+  border-top: 3px solid #bbb;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.row .box-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  text-decoration: none !important;
+}
+
+.row .box-icon img {
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row .box-icon h4 {
+  font-size: 1.4rem;
+  text-align: center;
+  color: black;
+}
+
+.flash-deal {
+  background: #F3F0F5;
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  width: 100vw;
+  margin: 0 auto;
+}
+
+.flash-deal .card {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 100%;
+  margin-left: -1.6rem;
+}
+
+.flash-deal .card .card-img-top {
+  width: 100%;
+  height: 47%;
+}
+
+.flash-deal .barang-barang {
+  margin-bottom: 3rem;
+}
+
+.section-group .card {
+  height: 100%;
+}
+
+.icon-flash h1 {
+  font-size: 1.5rem;
+}
+
+.card {
+  width: 9.5rem !important;
+}
+
+.card .card-body a {
+  text-decoration: none;
+}
+
+.card .card-body p {
+  font-size: 1rem;
+  color: #141414;
+}
+
+.card .card-body .harga-akhir {
+  font-weight: bolder;
+  font-size: 1.25rem;
+}
+
+.card .card-body .harga-diskon {
+  margin-left: .3rem;
+  font-size: 0.8rem;
+  color: red;
+}
+
+.card .card-body .harga-akhir-2 {
+  font-weight: bolder;
+  font-size: 2rem;
+}
+
+.card .card-body .diskon {
+  margin-top: -1rem;
+}
+
+.card .card-body .diskon .harga-awal {
+  font-weight: lighter;
+  font-size: 0.85rem;
+  text-decoration: line-through;
+  color: #A9A9A9;
+}
+
+.card .card-body .diskon-2 {
+  margin-bottom: -1rem;
+}
+
+.card .card-body .diskon-2 .harga-awal {
+  font-weight: lighter;
+  font-size: 0.85rem;
+  text-decoration: line-through;
+  color: #A9A9A9;
+}
+
+.card-item {
+  position: relative;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.card-item .item-detail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.btn-primary {
+  font-weight: 400;
+  background-color: #db1859 !important;
+  border-color: #ffff !important;
+  background: #db1859;
+  border: none;
+}
+
+.btn-primary:hover {
+  font-weight: 500;
+  border-color: #ffff !important;
+  background: #f70354;
+}
+
+.breadcrumb {
+  background: #ffff;
+}
+
+.gallery .xzoom-container {
+  display: block;
+}
+
+.gallery .xzoom-container .xzoom {
+  width: 100%;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  margin-bottom: 10px;
+}
+
+.gallery .xzoom-container .xactive {
+  border: 4px solid #1a4c9c;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.section-cart img {
+  width: 12%;
+  height: 12%;
+}
+
+.section-cart h1 {
+  font-size: 1.5rem;
+}
+
+.section-cart input {
+  width: 10%;
+  text-align: center;
+}
+
+.section-cart a {
+  width: 5%;
+  height: auto;
+}
+
+.section-cart ion-icon {
+  font-size: 24px;
+}
+
+.section-cart .delete {
+  font-size: 64px;
+}
+
+.btn-cart .btn-bayar {
+  width: 20%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  font-size: .9rem;
+}
+
+form .form-group .custom-select {
+  width: 20%;
+}
+
+form .btn-kirim {
+  width: 6rem;
+}
+
+footer a {
+  color: #141414;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: black;
+  text-decoration: none;
+}
+/*# sourceMappingURL=style.css.map */

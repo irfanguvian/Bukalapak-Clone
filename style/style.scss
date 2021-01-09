@@ -1,0 +1,223 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+ 
+  .nav-item{
+        a{
+              text-decoration: none;
+              color: black;
+        }
+      ion-icon {
+            color: black;
+            font-size: 24px;
+          }
+      .counter-cart{
+            font-size: 1.2rem;
+      }
+  }
+
+.solid{
+      border-top: 3px solid #bbb;    
+}
+
+
+.row{
+      display: flex;
+      justify-content: space-around;
+.box-icon{
+      display: flex;
+      flex-direction: column;
+      width: fit-content;
+      text-decoration: none !important;
+      img{
+           width: 45%;
+           margin-left: auto;
+           margin-right: auto;
+      }
+      h4{
+            font-size: 1.4rem;
+            text-align: center;
+            color: black;
+      }
+}
+
+}
+.flash-deal{
+      background: #F3F0F5;
+      position:relative;
+      z-index: 1;
+      height: 100%;
+      width: 100vw;
+      margin: 0 auto;
+      .card{
+            width: fit-content;
+            height: 100%;
+            margin-left: -1.6rem;
+            .card-img-top{
+                  width: 100%;
+                  height: 47%;
+            }
+      }
+
+      .barang-barang{
+            margin-bottom: 3rem;
+      }
+
+
+
+}
+
+.section-group{
+      .card{
+            height: 100%;
+      }
+}
+
+.icon-flash{
+      h1{
+          font-size: 1.5rem;
+      }
+}
+.card{
+      width: 9.5rem !important ;
+      .card-body{
+            
+            a{
+                  text-decoration: none;
+            }
+            p{
+                  font-size: 1rem;
+                  color: #141414;
+            }
+            
+            .harga-akhir{
+                  font-weight: bolder;
+                  font-size: 1.25rem;
+            }
+            .harga-diskon{
+                  margin-left: .3rem;
+                  font-size: 0.8rem;
+                  color: red;
+            }
+            .harga-akhir-2{
+                  font-weight: bolder;
+                  font-size: 2rem;
+            }
+            .diskon{
+                  margin-top: -1rem;
+                  .harga-awal{
+                        font-weight: lighter;
+                        font-size: 0.85rem;
+                        text-decoration: line-through;
+                        color:#A9A9A9;
+                  }
+            }
+            .diskon-2{
+                  margin-bottom: -1rem;
+                  .harga-awal{
+                        font-weight: lighter;
+                        font-size: 0.85rem;
+                        text-decoration: line-through;
+                        color:#A9A9A9;
+                  }
+            }
+      }
+}
+
+.card-item{
+      position: relative;
+      width: 100% !important;
+      height: 100% !important;
+      .item-detail{
+            display: flex; 
+            flex-direction: column;
+            justify-content: end;           
+      }
+}
+.btn-primary{
+      font-weight: 400 ;
+      background-color:  rgb(219, 24, 89) !important ;
+      border-color:#ffff !important;
+      background: rgb(219, 24, 89);
+      border: none;
+}
+.btn-primary:hover{
+    font-weight: 500;
+    border-color: #ffff !important;
+    background: rgb(247, 3, 84);  
+}
+
+.breadcrumb{
+      background: #ffff;
+}
+
+.gallery{
+      .xzoom-container{
+          display: block;
+          .xzoom{
+              width: 100%;
+              box-shadow: none;
+              margin-bottom: 10px;
+          }
+
+          .xactive{
+              border: 4px solid #1a4c9c;
+              box-shadow: none;
+          }
+      }
+  }
+  .section-cart{
+        img{
+              width: 12%;
+              height: 12%;
+        }
+        h1{
+            font-size: 1.5rem;
+        }
+        input{
+              width: 10%;
+              text-align: center;
+        }
+        a{
+              width: 5%;
+              height: auto;
+        }
+        ion-icon{
+              font-size: 24px;
+        }
+        .delete{
+              font-size: 64px;
+        }
+        
+  }
+  .btn-cart{
+      .btn-bayar{
+       width: 20%;
+       align-self: center;  
+       font-size: .9rem;   
+      }
+}
+form{
+ .form-group{
+       .custom-select{
+             width: 20%;
+       }
+ }
+ .btn-kirim{
+       width: 6rem;
+
+ }
+}
+footer{
+      a{
+            color: #141414;
+            text-decoration: none;
+      }
+      a:hover{
+            color: black;
+            text-decoration: none;
+      }
+}
+  
