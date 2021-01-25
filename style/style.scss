@@ -3,36 +3,71 @@
       padding: 0;
       box-sizing: border-box;
   }
- 
-  .nav-item{
-        a{
-              text-decoration: none;
-              color: black;
-        }
-      ion-icon {
-            color: black;
-            font-size: 24px;
-          }
-      .counter-cart{
-            font-size: 1.2rem;
-      }
-  }
+.navbar-wrapper{
+      width: 1100px;
+      background: #ffff; 
+      nav{
+            .logo{
+                  max-width: 10rem;
+                 
+            }
+            ul{
+                margin-top: 0.5rem; 
+            }
+            .btn-login{
+                  margin-bottom: 0.5rem;
+                  margin-right: 0.5rem;
+                  display: block; 
+                  background: #ffff !important;
+                  border: 1px solid #B14141 !important;
+                  color: #B14141 ;
 
-.solid{
-      border-top: 3px solid #bbb;    
+                  &:hover{
+                        font-weight: bolder;
+                        color: #c05b5b ;
+                        border: 1px solid #c05b5b !important;
+                  }
+                  
+            }
+            .btn-signin{
+                  display: block;
+                  margin-right: 0.5rem; 
+                  background: #B14141 !important ;
+                  border: 1px solid #B14141 !important;
+                  &:hover{
+                        font-weight: bolder;
+                        border: 1px solid #c05b5b !important;
+                  }
+            }
+            
+        }
+        .line{
+            height: 0.1px;
+            width: 100%;
+            border: 1px solid #bbb;
+      }
 }
 
-
-.row{
+@import './hero-photos';
+    
+.ic-list{
+      width: 1100px;
+      margin-left: 50px;
       display: flex;
       justify-content: space-around;
+}
+
+.banner-mid{
+      margin: auto;
+      width: 1100px;
+}
+
 .box-icon{
       display: flex;
       flex-direction: column;
-      width: fit-content;
       text-decoration: none !important;
       img{
-           width: 45%;
+           width: 50px;
            margin-left: auto;
            margin-right: auto;
       }
@@ -43,30 +78,34 @@
       }
 }
 
-}
+
 .flash-deal{
       background: #F3F0F5;
       position:relative;
-      z-index: 1;
       height: 100%;
-      width: 100vw;
+      width: 100%;
       margin: 0 auto;
-      .card{
-            width: fit-content;
-            height: 100%;
-            margin-left: -1.6rem;
-            .card-img-top{
-                  width: 100%;
-                  height: 47%;
-            }
+      .item{
+            margin-right: 4rem;
       }
-
       .barang-barang{
             margin-bottom: 3rem;
       }
-
-
-
+      .icon-flash{
+            h1{
+                font-size: 1.5rem;
+            }
+      }
+       
+      .btn-flashdeal{
+            margin-right: 0.5rem; 
+            background: #B14141 !important ;
+            border: 1px solid #B14141 !important;
+            &:hover{
+                  font-weight: bolder;
+                  border: 1px solid #c05b5b !important;
+            }
+      }
 }
 
 .section-group{
@@ -75,13 +114,21 @@
       }
 }
 
-.icon-flash{
-      h1{
-          font-size: 1.5rem;
-      }
-}
+
 .card{
-      width: 9.5rem !important ;
+      height: 100%;
+      position: relative;
+      width: 10.5rem !important ;
+      .card-img-top{
+            width: 100%;
+            height: 47%;
+      }
+      .price-wrap{
+            position: absolute;
+            bottom: 0;
+            display: flex;
+            flex-wrap: wrap;
+      }
       .card-body{
             
             a{
@@ -123,6 +170,7 @@
                         color:#A9A9A9;
                   }
             }
+
       }
 }
 
@@ -135,18 +183,6 @@
             flex-direction: column;
             justify-content: end;           
       }
-}
-.btn-primary{
-      font-weight: 400 ;
-      background-color:  rgb(219, 24, 89) !important ;
-      border-color:#ffff !important;
-      background: rgb(219, 24, 89);
-      border: none;
-}
-.btn-primary:hover{
-    font-weight: 500;
-    border-color: #ffff !important;
-    background: rgb(247, 3, 84);  
 }
 
 .breadcrumb{
@@ -220,4 +256,116 @@ footer{
             text-decoration: none;
       }
 }
+
+@media (max-width :1010px){
+      .navbar-wrapper{
+            width: 1000px;
+      }
+      .banner-mid{
+            width: 920px;
+            margin-left: 15px;
+      }
+      .ic-list{
+            margin: auto;
+            display: grid;
+            grid-template-rows: 100px;
+            grid-template-columns: repeat(5,calc(1000px/5));
+      }
+      .flash-deal{
+            width: 1000px;
+            .item{
+                  margin-right: 80px !important;
+            }
+            .barang-barang{
+                  margin-left: -75px;
+            }
+      }
+     
+      
+}
   
+@media (max-width :768px){
+      .navbar-wrapper{
+            width: 768px;
+      }
+      nav{
+            .logo{
+                  width: 10rem ;
+                  max-width: 35%;
+                  margin-top: 0;
+                  position: absolute;
+                  top :0;
+            }
+                 
+      }  
+      .line{
+            height: 0.1px;
+            width: 700px;
+            border: 1px solid #bbb;
+      }
+      .photos-wrapper{
+            margin-top: 10px;
+            margin-left: 110px;
+      }      
+      .ic-list{
+            display: grid;
+            grid-template-rows: 100px;
+            grid-template-columns: repeat(5,calc(760px/5));
+      }
+
+      .banner-mid{
+            width: 500px;
+            margin-left: 120px;
+      }
+      .flash-deal{
+            width: 760px;
+            .item{
+                  margin-right: 65px !important
+            }
+            .item-4{
+                  display: none;
+            }
+            .barang-barang{
+                  margin-left: 10px;
+            }
+      }
+ 
+      
+}
+
+@media (max-width :576px){
+      .navbar-wrapper{
+            width: 550px;
+      }
+      .line{
+            width: 550px;
+            border: 1px solid #bbb !important;
+      }
+      .photos-wrapper{
+            margin-top: 10px;
+            margin-left: 0;
+            grid-template-columns: 550px;
+      } 
+      .ic-list{
+            display: grid;
+            grid-template-rows: 100px;
+            grid-template-columns: repeat(5,calc(570px/5));
+      }
+      .banner-mid{
+            width: 550px;
+            margin-left: 15px;
+      }
+      .flash-deal{
+            width: 550px;
+            .item-3{
+                  display: none;
+            }
+            .item-4{
+                  display: none;
+            }
+            .barang-barang{
+                  margin-left: 10px;
+            }
+      }
+      
+}
