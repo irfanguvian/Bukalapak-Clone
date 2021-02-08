@@ -8,58 +8,42 @@
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-        <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <a href="index.html">
-                    <img src="img/bukalapak-logo-primary.svg" style="width: 50%;" alt="">
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-              
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav mr-2 ml-auto px-3">
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Kategori Barang
-                      </a>
-                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                      </div>
-                    </li>
-                    <li class="nav-item ml-2 mt-2">
-                      <a href="shop-cart.html">
-                        <ion-icon name="basket"></ion-icon><span class=counter-cart>0</span>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </nav>
-              <hr class="solid mt-2">
+  <div class="container-xl sticky-top">
+    <div class="navbar-wrapper">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a href="index.html">
+            <img class="logo" src="img/logo@2x.png" alt="">
+        </a>
+          <ul class="navbar-nav ml-auto mt-2 d-flex">
+            <li class="nav-item ml-2 mt-2">
+              <a class="cart-icon" href="shop-cart.html">
+                <ion-icon class="mr-2" name="basket"></ion-icon><span class= "counter-cart" >0</span>
+              </a>
+            </li>
+          </ul>
+      </nav>
+    </div>  
+      <hr class="line">
             <main>              
-             <div class="container"> 
-              <div class="d-flex row justify-content-around section-group">
-                    <div class="col-sm-3 mb-3">
-                      <div class="card card-item">
-                        <img class="card-img-top" src="img/barang-barang/_Mooimom_2_Ways_Diaper_Bag_Tas_Popok.jpg.webp" alt="Card image cap">
-                        <div class="card-body">
-                          <a href="detail.html"><p class="card-text">MOOIMOM 2-Ways Diaper Bag</p></a>
-                          <div class="item-detail">
-                            <p class="card-text harga-akhir">Rp349.000</p>
-                            <div class="diskon d-flex">
-                              <p class="card-text harga-awal">Rp449.000</p>
-                              <p class="card-text harga-diskon">-30%</p>
-                            </div>
-                            <a href="shop-cart.html" class="btn btn-primary px-4 py-2"> Add To Cart</a>
-                          </div>
+             <div class="container-xl"> 
+              <div class="section-items">
+                <div class="col-sm-2 mt-3">
+                  <div class="card card-item">
+                    <img class="card-img-top" src="img/barang-barang/_Mooimom_2_Ways_Diaper_Bag_Tas_Popok.jpg.webp" alt="Card image cap">
+                    <div class="card-body mb-5">
+                      <a href="detail.html"><p class="card-text text-break">MOOIMOM 2-Ways Diaper Bag Tas Popok </p></a>
+                     <div class="item-detail">
+                        <p class="card-text harga-akhir">Rp35.000.000</p>
+                        <div class="diskon d-flex">
+                          <p class="card-text harga-awal">Rp449.000</p>
+                          <p class="card-text harga-diskon">-30%</p>
                         </div>
-                      </div>
+                     </div>
+                    </div>
                   </div>
+                </div>
 
-                  <div class="col-sm-3 mb-3">
+                  <div class="col-sm-2 mt-3">
                       <div class="card card-item">
                         <img class="card-img-top" src="img/barang-barang/a2aae584c61acca3e4c3fbd0eff73d9a.jpg.webp" alt="Card image cap">
                         <div class="card-body">
@@ -70,13 +54,12 @@
                               <p class="card-text harga-awal">Rp1.200.000</p>
                               <p class="card-text harga-diskon">-16%</p>
                             </div>
-                            <a href="shop-cart.html" class="btn btn-primary px-4 py-2"> Add To Cart</a>
                           </div> 
                         </div>
                       </div>
                   </div>
 
-                  <div class="col-sm-3 mb-3">
+                  <div class="col-sm-2 mt-3">
                       <div class="card card-item">
                         <img class="card-img-top" src="img/barang-barang/data.jpeg.webp" alt="Card image cap">
                         <div class="card-body">
@@ -87,13 +70,12 @@
                               <p class="card-text harga-awal">Rp62.500</p>
                               <p class="card-text harga-diskon">-60%</p>
                             </div>
-                            <a href="shop-cart.html" class="btn btn-primary px-4 py-2"> Add To Cart</a>
                           </div>  
                         </div>
                       </div>
                   </div>
                     
-                  <div class="col-sm-3 mb-3">
+                  <div class="col-sm-2 mt-3">
                       <div class="card card-item">
                         <img class="card-img-top" src="img/barang-barang/data.jpeg (1).webp" alt="Card image cap">
                         <div class="card-body">
@@ -104,12 +86,11 @@
                                 <p class="card-text harga-awal">Rp98.750</p>
                                 <p class="card-text harga-diskon">-30%</p>
                               </div>
-                              <a href="shop-cart.html" class="btn btn-primary px-4 py-2"> Add To Cart</a>
                           </div>
                         </div>
                       </div>
                   </div>
-                  <div class="col-sm-3 mb-3">
+                  <div class="col-sm-2 mt-3">
                       <div class="card card-item">
                         <img class="card-img-top" src="img/barang-barang/data.jpeg (2).webp" alt="Card image cap">
                         <div class="card-body">
@@ -120,7 +101,6 @@
                               <p class="card-text harga-awal">Rp279.900</p>
                               <p class="card-text harga-diskon">-32%</p>
                             </div>
-                            <a href="shop-cart.html" class="btn btn-primary px-4 py-2"> Add To Cart</a>
                           </div>
                         </div>
                       </div>
